@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(41, 7, 121);
+    border-radius: 10px;
+    word-spacing: 1px;
+    text-decoration-line: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    background-color:white;
+    height: 3rem;
+    box-shadow: 0px 3px 9px rgba(5, 5, 5, 0.3);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0;
+}
+
+nav h1{
+    font-size: 1.5rem;
+    padding-bottom: 0.8rem;
+    margin-left: 10vw;
+}
+
+.logo{
+    width: 2rem;
+    height: 1.2rem;
+    margin-right: 1rem;
+}
+
+li{
+    font-size: 0.95rem;
+    display: inline;
+    margin-right: 3.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+h3 {
+    margin-top: 2.8rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.color-text{
+    background: -webkit-linear-gradient(rgb(32, 31, 31), rgb(124, 120, 120));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.2rem;
+}
+
+img{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1.5rem;
+}
+
+footer{
+    background-color: rgb(160, 160, 160);
+    margin: 1rem 0.5rem 0 0.5rem;
+    height: max-content;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: flex-end;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
+
+a:link, a:visited {
+    color: (internal value);
+    cursor: pointer;
+}
+  
+a:link:active, a:visited:active {
+    color: (internal value);
+}
